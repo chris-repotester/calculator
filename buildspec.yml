@@ -8,7 +8,7 @@ phases:
       - echo "nothing to do"
   build:
     commands:
-      - git rm buildspec.yml
+      - rm buildspec.yml
       - ls
   post_build:
     commands:
