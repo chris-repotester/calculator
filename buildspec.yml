@@ -1,0 +1,18 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - echo "nothing to do"
+  pre_build:
+    commands:
+      - echo "nothing to do"
+  build:
+    commands:
+      - git rm buildspec.yml
+      - ls
+  post_build:
+    commands:
+      - echo "nothing to do"
+artifacts:
+  files:
+    - '**/*'
